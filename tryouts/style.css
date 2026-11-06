@@ -8,3 +8,24 @@
 #js{
     display: none;
 }
+
+#username, #password{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+#continue{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+#message{
+    display: none;
+}

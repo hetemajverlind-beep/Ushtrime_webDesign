@@ -19,6 +19,17 @@
     <button onclick="functionCSS()">SHOW CSS IMG</button>
     <img src="../img/CSS3_logo_and_wordmark.svg.webp" alt="CSS Logo" id="csslogo">
 
+<br><br>
+    <form action="https://moodle.ubt-uni.net/" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="username..." required><br><br>
 
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="password..." required><br><br>
+
+    <input onclick="fillForm()" type="button" value="Submit" id="submit">
+    <p id="message"></p>
+    <input type="submit" value="Continue" id="continue">
+    </form>
 </body>
 </html>
